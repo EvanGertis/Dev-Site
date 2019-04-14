@@ -1,0 +1,26 @@
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+      monospace;
+  }
+  body {
+      background-color: #E0F0F0;
+  }
+
+.MainPage {
+	margin-left: +220px;
+	padding-left: +10px;
+	max-width: +800px;
+}
+
+.main_title {
+	font-family: "Verdana";
+	font-weight: bold;
+	font-size: 18pt;
+}
+
+.normal_text {
+	font-family: "Palatino Linotype";
+	font-size: 11pt;
+	margin-top: +1px;
+	margin-left: +1px;
+}

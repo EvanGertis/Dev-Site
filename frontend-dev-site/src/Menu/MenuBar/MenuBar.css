@@ -1,0 +1,32 @@
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+      monospace;
+  }
+  body {
+      background-color: #E0F0F0;
+  }
+.MenuBar {
+	background-color: #D0E0F0;
+	float: left;
+	position: fixed;
+	padding-left: +5px;
+	padding-right: +5px;
+	border-right: +1px solid;
+	width: +210px;
+	height: 98%;
+}
+
+.menu_title {
+	font-family: "Verdana";
+	font-weight: bold;
+	font-size: 12pt;
+	text-align: center;
+}
+.menu_cat1 {
+	font-family: "Verdana";
+	font-size: 10pt;
+}
+.menu_cat1 img {
+	border: none;
+	vertical-align: middle;
+}

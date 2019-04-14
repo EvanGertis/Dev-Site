@@ -1,0 +1,147 @@
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+body {
+	background-color: #E0F0F0;
+}
+
+/* menu */
+.menu_title a:link, .menu_cat1 a:link, .menu_cat2 a:link {
+	text-decoration: none;
+	color: #4040D0;
+}	
+
+.menu_title a:visited, .menu_cat1 a:visited, .menu_cat2 a:visited {
+	text-decoration: none;
+	color: #4040D0;
+}
+
+.menu_title a:hover, .menu_cat1 a:hover, .menu_cat2 a:hover {
+	color: #F9F9F9;
+	cursor: pointer;
+}
+
+.menu_cat1 {
+	font-family: "Verdana";
+	font-size: 10pt;
+}
+
+.menu_cat1 img {
+	border: none;
+	vertical-align: middle;
+}
+
+.menu_cat2 {
+	font-family: "Verdana";
+	font-size: 8pt;
+	margin-left: +15px;
+	margin-top: +10px;
+	display: none;
+}
+
+.menu_cat2 img {
+	vertical-align: middle;
+}
+
+.plus {
+}
+
+.minus {
+	display: none;
+}
+
+.toplink {
+	color: #4040D0;
+	font-family: "Verdana";
+	font-size: 7pt;
+	text-align: right;
+	text-decoration: underline;
+	margin-right: +5px;
+	margin-top: +10px;
+}
+
+.toplink a:hover {
+	color: #9090D0;
+	cursor: pointer;
+}
+
+/* content */
+.normal_text img {
+	vertical-align: bottom;
+}
+
+.cat1 {
+	font-family: "Verdana";
+	font-size: 16pt;
+	color: #000000;
+	margin-top: +40px;
+	padding-top: +5px;
+	margin-bottom: +5px;
+	padding-bottom: +5px;
+	border-top: +1px solid;
+	border-bottom: +1px solid;
+}
+
+.cat2 {
+	font-family: "Verdana";
+	font-size: 14pt;
+	color: #109010;
+	margin-top: +30px;
+}
+
+.cat2 img {
+	vertical-align: top;
+}
+
+.cat2_info {
+	font-family: "Verdana";
+	font-size: 8pt;
+	margin-top: +5px;
+	margin-left: +15px;
+}
+
+.cat2_text {
+	font-family: "Palatino Linotype";
+	font-size: 10pt;
+	margin-top: +5px;
+	margin-left: +25px;
+	margin-bottom: +8px;
+}
+
+.cat2_text img {
+	vertical-align: middle;
+}
+
+.cat2_cart {
+	font-family: "Tahoma";
+	font-size: 9pt;
+	line-height: +18px;
+	margin-left: +40px;
+	width: +580px;
+	background-color: #FFFFBB;
+	padding-top: +3px;
+	padding-left: +5px;
+	padding-right: +5px;
+	padding-bottom: +5px;
+	vertical-align: bottom;
+	border-top: +1px dotted;
+	border-left: +1px dotted;
+	border-right: +1px dotted;
+	border-bottom: +1px dotted;
+}
+
+.cat2_cart_spacer {
+	padding-left: +10px;
+	padding-right: +10px;
+}
+
+.cat2_cart img {
+	vertical-align: text-bottom;
+}
+
+.signature {
+	font-family: "Verdana";
+	font-style: italic;
+	font-size: 8pt;
+}

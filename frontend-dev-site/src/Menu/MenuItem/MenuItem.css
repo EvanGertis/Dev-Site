@@ -1,0 +1,15 @@
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+      monospace;
+  }
+  body {
+      background-color: #E0F0F0;
+  }
+
+	.menu_cat2 {
+		font-family: "Verdana";
+		font-size: 8pt;
+		margin-left: +15px;
+		margin-top: +10px;
+		display: inline;
+	}
