@@ -1,8 +1,8 @@
 {
   "targets": [
     {
-      "target_name": "binding",
-      "sources": [ "cpplib/binding.cc" ]
+      "target_name": "num",
+      "sources": [ "cpplib/num.cc" ]
     }
   ]
 }

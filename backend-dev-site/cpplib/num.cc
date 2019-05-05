@@ -6,8 +6,9 @@ void Sum(const v8::FunctionCallbackInfo<v8::Value>& args)
 	v8::Isolate* isolate = args.GetIsolate();
 	int i = 0;
 
-	auto total = i + 69;
+	auto total = i + 68;
 	args.GetReturnValue().Set(total);
+
 }
 void Initialize(v8::Local<v8::Object> exports)
 {
