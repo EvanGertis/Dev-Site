@@ -16,7 +16,7 @@ const IP_ADDRESS = req.body.IPAddress;
 const COUNTRY = req.body.Country;
 const REGION = req.body.Region;
 const CITY = req.body.City;
-const date = new Date();
+const date = dateFormat(new Date(),'yyyy-mm-dd hh:mm:ss')
 
 con.connect(function(err){
   if(err) console.log('Unable to connect to db');
@@ -24,7 +24,7 @@ con.connect(function(err){
 
   const sql = `INSERT INTO log (IPADDRESS,COUNTRY, REGION,CITY, DATE) VALUES 
       ('${IP_ADDRESS}', '${COUNTRY}', '${REGION}', '${CITY}',
-             '${dateFormat(date,'yyyy-mm-dd hh:mm:ss')}')`;
+             '${date}')`;
 
   con.query(sql,function(err,result){
     if(err) res.status(400).send(`${err}`);
