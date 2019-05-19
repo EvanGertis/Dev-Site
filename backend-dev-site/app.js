@@ -13,7 +13,7 @@ var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/users');
 var numberRouter = require('./routes/number');
 
-var dbLogVisitorRouter = require('./routes/dbLogVisitor');
+var dbLogRouter = require('./routes/dbLog');
 
 
 
@@ -42,7 +42,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 app.use('/', indexRouter);
 app.use('/users', usersRouter);
 app.use('/number', numberRouter);
-app.use('/dbLogVisitor',dbLogVisitorRouter);
+app.use('/dbLog',dbLogRouter);
 
 
 
@@ -58,6 +58,7 @@ app.use('/dbLogVisitor',dbLogVisitorRouter);
 // Use CORS and File Upload modules here
 app.use(cors());
 app.use(fileUpload());
+app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 
 // below, also change this to
