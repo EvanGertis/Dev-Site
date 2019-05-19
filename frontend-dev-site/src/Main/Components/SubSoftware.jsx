@@ -5,29 +5,29 @@ import githubImage from '../../Images/gh.png';
 
 
 class SubSoftware extends Component {
-  constructor(props){
+  constructor(props) {
     super(props);
     this.state = {
     }
-  
+
   }
 
   render() {
     return (
       <div>
         <center>
-         <img src={this.props.imageLocation} height="400" width="400"/>
-         <br/>
+          <img src={this.props.imageLocation} height="200" width="450" />
+          <br />
           <Typography variant='h4'>{this.props.programTitle}</Typography>
           <Typography variant='h6'>Language(s): {this.props.language}</Typography>
           <Typography variant='subtitle1'>{this.props.description}</Typography>
-          <br/>
+          <br />
           <Typography variant='subtitle2'><a href={this.props.linkToLatest}>{this.props.linkToLatestText}</a></Typography>
-          <br/>
+          <br />
           <a href={this.props.githubLocation} target='_blank'>
-          <img src={githubImage} height="70" width="50"/>
+            <img src={githubImage} height="70" width="50" />
           </a>
-          </center>
+        </center>
       </div>
 
     );
